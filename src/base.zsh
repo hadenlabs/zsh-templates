@@ -28,12 +28,12 @@ function most::install {
 # find command for read
 function template::read {
     local parse_cmd
-    if type -p gtac > /dev/null; then
-        parse_cmd="gtac"
-    elif type -p tac > /dev/null; then
-        parse_cmd="tac"
+    if type -p most > /dev/null; then
+        parse_cmd="most"
+    elif type -p less > /dev/null; then
+        parse_cmd="less"
     else
-        parse_cmd="tail -r"
+        parse_cmd="cat"
     fi
     "${parse_cmd}" "${1}"
 }
