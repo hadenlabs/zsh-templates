@@ -1,0 +1,39 @@
+{
+  "templates": [
+    {
+      "name": "jira issue template",
+      "description": "template for generate issue",
+      "tool": "jira",
+      "type": "issue",
+      "filename": "jira/issue.md"
+    },
+    {
+      "name": "jira story template",
+      "description": "template for generate story",
+      "tool": "jira",
+      "type": "story",
+      "filename": "jira/story.md"
+    },
+    {
+      "name": "jira bug template",
+      "description": "template for generate bug",
+      "tool": "jira",
+      "type": "bug",
+      "filename": "jira/bug.md"
+    },
+    {
+      "name": "jira release template",
+      "description": "template for generate release",
+      "tool": "jira",
+      "type": "release",
+      "filename": "jira/release.md"
+    },
+    {
+      "name": "jira spike template",
+      "description": "template for generate spike",
+      "tool": "jira",
+      "type": "spike",
+      "filename": "jira/spike.md"
+    }
+  ]
+}
