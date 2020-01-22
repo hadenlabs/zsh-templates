@@ -34,6 +34,41 @@
       "tool": "jira",
       "type": "spike",
       "filename": "jira/spike.md"
+    },
+    {
+      "name": "redmine issue template",
+      "description": "template for generate issue",
+      "tool": "redmine",
+      "type": "issue",
+      "filename": "redmine/issue.md"
+    },
+    {
+      "name": "redmine story template",
+      "description": "template for generate story",
+      "tool": "redmine",
+      "type": "story",
+      "filename": "redmine/story.md"
+    },
+    {
+      "name": "redmine bug template",
+      "description": "template for generate bug",
+      "tool": "redmine",
+      "type": "bug",
+      "filename": "redmine/bug.md"
+    },
+    {
+      "name": "redmine release template",
+      "description": "template for generate release",
+      "tool": "redmine",
+      "type": "release",
+      "filename": "redmine/release.md"
+    },
+    {
+      "name": "redmine spike template",
+      "description": "template for generate spike",
+      "tool": "redmine",
+      "type": "spike",
+      "filename": "redmine/spike.md"
     }
   ]
 }
