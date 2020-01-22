@@ -1,6 +1,13 @@
 {
   "templates": [
     {
+      "name": "common meet template",
+      "description": "template for generate meet",
+      "tool": "common",
+      "type": "meet",
+      "filename": "common/meet.md"
+    },
+    {
       "name": "jira issue template",
       "description": "template for generate issue",
       "tool": "jira",
