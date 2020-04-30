@@ -1,10 +1,8 @@
 ## Necesidad
 
-Se requiere la modificación del modal para que pueda soportar el ingreso de 5 referidos (esto depende)
-Se adjunta imagen de Referencia.
+Se requiere la modificación del modal para que pueda soportar el ingreso de 5 referidos (esto depende) Se adjunta imagen de Referencia.
 
 ## Consideraciones
-
 
 ## El Modal debe ser flexible al cambio.
 

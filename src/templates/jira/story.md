@@ -1,7 +1,6 @@
 ## Prestamo de libro
 
-Como cliente quiero que los socios puedan pedir prestado un libro, indicando su numero de socio
-y la referencia del libro, siempre y cuando no tengan ya tres libros en prestamo en ese momento.
+Como cliente quiero que los socios puedan pedir prestado un libro, indicando su numero de socio y la referencia del libro, siempre y cuando no tengan ya tres libros en prestamo en ese momento.
 
 ### Criterios de Aceptacion
 

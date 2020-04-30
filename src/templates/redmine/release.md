@@ -1,5 +1,4 @@
-Descripción del pase, se debe indicar el motivo del pase  e indicar a nivel macro
-los cambios enviados. En este sección no se considera un título ya que Redmine coloca por default "Descripción".
+Descripción del pase, se debe indicar el motivo del pase e indicar a nivel macro los cambios enviados. En este sección no se considera un título ya que Redmine coloca por default "Descripción".
 
 ### Plataforma
 
@@ -20,7 +19,7 @@ los cambios enviados. En este sección no se considera un título ya que Redmine
 
 # make build
 
-*[Pantalla de Mantenimiento]*
+_[Pantalla de Mantenimiento]_
 
 Requiere/No Requiere pantalla de mantenimiento.
 
