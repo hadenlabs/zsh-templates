@@ -4,9 +4,9 @@ zsh-templates
 templates for issues deploy and all
 
 :Version: 0.0.0
-:Web: https://github.com/luismayta/zsh-templates
-:Download: https://github.com/luismayta/zsh-templates
-:Source: https://github.com/luismayta/zsh-templates
+:Web: https://github.com/equipindustry/zsh-templates
+:Download: https://github.com/equipindustry/zsh-templates
+:Source: https://github.com/equipindustry/zsh-templates
 :Keywords: zsh-templates
 
 .. contents:: Table of Contents:
@@ -39,7 +39,7 @@ plugin by doing the following:
 1. Go to your oh-my-zsh custom plugins directory -
     ``cd ~/.oh-my-zsh/custom/plugins``
 2. Clone the plugin
-    ``bash   git clone https://github.com/luismayta/zsh-templates``\ bash
+    ``bash   git clone https://github.com/equipindustry/zsh-templates``\ bash
 3. Edit your ``.zshrc`` and add
     ``plugins=( ... zsh-templates )`` to your list of
     plugins
@@ -51,10 +51,10 @@ plugin by doing the following:
 If you're using `Antigen <https://github.com/zsh-lovers/antigen>`__,
 install this plugin by doing the following:
 
-1. Add ``antigen bundle luismayta/zsh-templates`` to your
+1. Add ``antigen bundle equipindustry/zsh-templates`` to your
     ``.zshrc`` where you're adding your other plugins.
 2. Either open a new terminal to force zsh to load the new plugin, or
-    run ``antigen bundle luismayta/zsh-templates`` in a
+    run ``antigen bundle equipindustry/zsh-templates`` in a
     running zsh session.
 3. Enjoy!
 
@@ -68,11 +68,11 @@ install this plugin by doing the following:
 
     .. code-block:: bash
 
-        antibody bundle luismayta/zsh-templates
+        antibody bundle equipindustry/zsh-templates
 
     to your ``.zshrc`` where you're adding your other plugins.
 2. Either open a new terminal to force zsh to load the new plugin, or
-    run ``antibody bundle luismayta/zsh-templates`` in a
+    run ``antibody bundle equipindustry/zsh-templates`` in a
     running zsh session.
 3. Enjoy!
 
@@ -163,10 +163,10 @@ Made with :coffee: and :pizza: by `Luis Mayta`_ and `equipindustry`_.
 .. _`Website`: https://luismayta.github.io
 .. _`PGP`: https://keybase.io/luismayta/pgp_keys.asc
 
-.. |Build Status| image:: https://travis-ci.org/luismayta/zsh-templates.svg
-    :target: https://travis-ci.org/luismayta/zsh-templates
-.. |GitHub issues| image:: https://img.shields.io/github/issues/luismayta/zsh-templates.svg
-    :target: https://github.com/luismayta/zsh-templates/issues
+.. |Build Status| image:: https://travis-ci.org/equipindustry/zsh-templates.svg
+    :target: https://travis-ci.org/equipindustry/zsh-templates
+.. |GitHub issues| image:: https://img.shields.io/github/issues/equipindustry/zsh-templates.svg
+    :target: https://github.com/equipindustry/zsh-templates/issues
 .. |GitHub license| image:: https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square
     :target: LICENSE
 
@@ -177,8 +177,8 @@ Made with :coffee: and :pizza: by `Luis Mayta`_ and `equipindustry`_.
 .. Footer:
 .. |linkedin| image:: http://www.linkedin.com/img/webpromo/btn_liprofile_blue_80x15.png
     :target: https://www.linkedin.com/in/luismayta
-.. |beacon| image:: https://ga-beacon.appspot.com/UA-65019326-1/github.com/luismayta/zsh-templates/readme
-    :target: https://github.com/luismayta/zsh-templates
+.. |beacon| image:: https://ga-beacon.appspot.com/UA-65019326-1/github.com/equipindustry/zsh-templates/readme
+    :target: https://github.com/equipindustry/zsh-templates
 .. |made| image:: https://img.shields.io/badge/Made%20with-Zsh-1f425f.svg
     :target: http://www.zsh.org
 

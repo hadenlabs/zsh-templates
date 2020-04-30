@@ -17,7 +17,7 @@ else
 	PIPENV_INSTALL:=
 endif
 
-TEAM := luismayta
+TEAM := equipindustry
 AWS_VAULT ?= equipindustry
 PROJECT := zsh-templates
 PROJECT_PORT := 3000
