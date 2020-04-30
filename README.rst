@@ -3,6 +3,8 @@ zsh-templates
 
 templates for issues deploy and all
 
+|Build Status| |GitHub issues| |GitHub license|
+
 :Version: 0.0.0
 :Web: https://github.com/equipindustry/zsh-templates
 :Download: https://github.com/equipindustry/zsh-templates
@@ -88,7 +90,7 @@ Usage
 
 .. code-block:: bash
 
-    λ make setup
+  λ make setup
 
 Support
 -------
@@ -172,11 +174,11 @@ Made with :coffee: and :pizza: by `Luis Mayta`_ and `equipindustry`_.
 
 .. Team:
 .. |Luis Mayta| image:: https://github.com/luismayta.png?size=100
-    :target: https://github.com/luismayta
+   :target: https://github.com/luismayta
 
 .. Footer:
 .. |linkedin| image:: http://www.linkedin.com/img/webpromo/btn_liprofile_blue_80x15.png
-    :target: https://www.linkedin.com/in/luismayta
+    :target: https://pe.linkedin.com/in/luismayta
 .. |beacon| image:: https://ga-beacon.appspot.com/UA-65019326-1/github.com/equipindustry/zsh-templates/readme
     :target: https://github.com/equipindustry/zsh-templates
 .. |made| image:: https://img.shields.io/badge/Made%20with-Zsh-1f425f.svg
