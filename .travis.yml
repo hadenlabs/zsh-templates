@@ -25,6 +25,7 @@ before_install:
 # install dependences
 install:
   - make setup
+
 # execute test
 script:
   - make test.lint
