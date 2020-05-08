@@ -8,6 +8,13 @@
       "filename": "common/meet.md"
     },
     {
+      "name": "common workshop template",
+      "description": "template for generate workshop",
+      "tool": "common",
+      "type": "workshop",
+      "filename": "common/workshop.md"
+    },
+    {
       "name": "jira issue template",
       "description": "template for generate issue",
       "tool": "jira",
