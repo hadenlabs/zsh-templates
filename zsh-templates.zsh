@@ -13,7 +13,7 @@ TEMPLATE_PLUGIN_DIR="$(dirname "${0}":A)"
 TEMPLATE_SOURCE_PATH="$TEMPLATE_PLUGIN_DIR"/src
 TEMPLATE_TEMPLATES_PATH="$TEMPLATE_SOURCE_PATH"/templates
 
-TEMPLATE_MESSAGE_BREW="Please install brew or use antibody bundle luismayta/zsh-brew branch:develop"
+export TEMPLATE_MESSAGE_BREW="Please install brew or use antibody bundle luismayta/zsh-brew branch:develop"
 
 # shellcheck source=/dev/null
 source "$TEMPLATE_SOURCE_PATH"/base.zsh
@@ -60,4 +60,4 @@ function template::run {
 }
 
 zle -N template::run
-bindkey '^T' template::run
+bindkey '^Xt' template::run
