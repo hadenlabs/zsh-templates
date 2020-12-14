@@ -7,57 +7,16 @@
 # Authors:
 #   Luis Mayta <slovacus@gmail.com>
 #
-template_package_name=template
-
-TEMPLATE_PLUGIN_DIR="$(dirname "${0}":A)"
-TEMPLATE_SOURCE_PATH="$TEMPLATE_PLUGIN_DIR"/src
-TEMPLATE_TEMPLATES_PATH="$TEMPLATE_SOURCE_PATH"/templates
-
-export TEMPLATE_MESSAGE_BREW="Please install brew or use antibody bundle luismayta/zsh-brew branch:develop"
+ZSH_TEMPLATES_PATH=$(dirname "${0}")
 
 # shellcheck source=/dev/null
-source "$TEMPLATE_SOURCE_PATH"/base.zsh
+source "${ZSH_TEMPLATES_PATH}"/config/main.zsh
 
 # shellcheck source=/dev/null
-source "$TEMPLATE_SOURCE_PATH"/templates.zsh
+source "${ZSH_TEMPLATES_PATH}"/internal/main.zsh
 
+# shellcheck source=/dev/null
+source "${ZSH_TEMPLATES_PATH}"/pkg/main.zsh
 
-function template::packages {
-    message_info "Install packages for $template_package_name"
-    message_success "Installed packages for $template_package_name"
-}
-
-function template::install {
-    message_info "Installing $template_package_name"
-    message_success "Installed $template_package_name"
-}
-
-function template::post_install {
-    message_info "Post Install $template_package_name"
-    message_success "Success Install $template_package_name"
-}
-
-# load template by filename
-function template::load {
-    local filename
-    filename="${1}"
-    if [ -z "${filename}" ]; then
-        message_warning "Please is neccesary filename path"
-        return
-    fi
-    template::read "${TEMPLATE_TEMPLATES_PATH}/${filename}" | pbcopy
-}
-
-# execute find and load template
-function template::run {
-    local filename
-    filename="$(template::find)"
-    if [ -z "${filename}" ]; then
-        message_warning "Please select one option"
-        return
-    fi
-    template::load "${filename}"
-}
-
-zle -N template::run
-bindkey '^Xt' template::run
+zle -N templates::run
+bindkey '^Xt' templates::run
