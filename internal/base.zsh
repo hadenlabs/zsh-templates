@@ -43,16 +43,3 @@ function templates::internal::fzf::install {
     brew install fzf
     message_success "Installed fzf for ${TEMPLATES_PACKAGE_NAME}"
 }
-
-# find command for read
-function templates::read {
-    local parse_cmd
-    if type -p most > /dev/null; then
-        parse_cmd="most"
-    elif type -p less > /dev/null; then
-        parse_cmd="less"
-    else
-        parse_cmd="cat"
-    fi
-    "${parse_cmd}" "${1}"
-}
