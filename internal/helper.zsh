@@ -41,5 +41,5 @@ function templates::internal::load {
         message_warning "Please is neccesary filename path"
         return
     fi
-    template::read "${TEMPLATES_TEMPLATES_PATH}/${filename}" | pbcopy
+    templates::internal::templates::read "${TEMPLATES_TEMPLATES_PATH}/${filename}" | pbcopy
 }
