@@ -4,7 +4,7 @@
 function templates::internal::less::install {
     message_info "Installing less for ${TEMPLATES_PACKAGE_NAME}"
     if ! type -p brew > /dev/null; then
-        message_warning "${TEMPLATE_MESSAGE_BREW}"
+        message_warning "${TEMPLATES_MESSAGE_BREW}"
         return
     fi
     brew install less
@@ -15,7 +15,7 @@ function templates::internal::less::install {
 function templates::internal::most::install {
     message_info "Installing most for ${TEMPLATES_PACKAGE_NAME}"
     if ! type -p brew > /dev/null; then
-        message_warning "${TEMPLATE_MESSAGE_BREW}"
+        message_warning "${TEMPLATES_MESSAGE_BREW}"
         return
     fi
     brew install most
