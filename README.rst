@@ -6,9 +6,9 @@ templates for issues deploy and all
 |Build Status| |GitHub issues| |GitHub license|
 
 :Version: 0.0.0
-:Web: https://github.com/equipindustry/zsh-templates
-:Download: https://github.com/equipindustry/zsh-templates
-:Source: https://github.com/equipindustry/zsh-templates
+:Web: https://github.com/hadenlabs/zsh-templates
+:Download: https://github.com/hadenlabs/zsh-templates
+:Source: https://github.com/hadenlabs/zsh-templates
 :Keywords: zsh-templates
 
 .. contents:: Table of Contents:
@@ -41,7 +41,7 @@ plugin by doing the following:
 1. Go to your oh-my-zsh custom plugins directory -
     ``cd ~/.oh-my-zsh/custom/plugins``
 2. Clone the plugin
-    ``bash   git clone https://github.com/equipindustry/zsh-templates``\ bash
+    ``bash   git clone https://github.com/hadenlabs/zsh-templates``\ bash
 3. Edit your ``.zshrc`` and add
     ``plugins=( ... zsh-templates )`` to your list of
     plugins
@@ -53,10 +53,10 @@ plugin by doing the following:
 If you're using `Antigen <https://github.com/zsh-lovers/antigen>`__,
 install this plugin by doing the following:
 
-1. Add ``antigen bundle equipindustry/zsh-templates`` to your
+1. Add ``antigen bundle hadenlabs/zsh-templates`` to your
     ``.zshrc`` where you're adding your other plugins.
 2. Either open a new terminal to force zsh to load the new plugin, or
-    run ``antigen bundle equipindustry/zsh-templates`` in a
+    run ``antigen bundle hadenlabs/zsh-templates`` in a
     running zsh session.
 3. Enjoy!
 
@@ -70,11 +70,11 @@ install this plugin by doing the following:
 
     .. code-block:: bash
 
-        antibody bundle equipindustry/zsh-templates
+        antibody bundle hadenlabs/zsh-templates
 
     to your ``.zshrc`` where you're adding your other plugins.
 2. Either open a new terminal to force zsh to load the new plugin, or
-    run ``antibody bundle equipindustry/zsh-templates`` in a
+    run ``antibody bundle hadenlabs/zsh-templates`` in a
     running zsh session.
 3. Enjoy!
 
@@ -146,14 +146,14 @@ Feel free to contact me to discuss any issues, questions, or comments.
 
 |linkedin| |beacon| |made|
 
-Made with :coffee: and :pizza: by `Luis Mayta`_ and `equipindustry`_.
+Made with :coffee: and :pizza: by `Luis Mayta`_ and `hadenlabs`_.
 
 .. Links
 .. _`changelog`: CHANGELOG.rst
 .. _`contributors`: docs/source/AUTHORS.rst
 .. _`contributing`: docs/source/CONTRIBUTING.rst
 
-.. _`equipindustry`: https://github.com/equipindustry
+.. _`hadenlabs`: https://github.com/hadenlabs
 .. _`Luis Mayta`: https://github.com/luismayta
 
 
@@ -165,10 +165,10 @@ Made with :coffee: and :pizza: by `Luis Mayta`_ and `equipindustry`_.
 .. _`Website`: https://luismayta.github.io
 .. _`PGP`: https://keybase.io/luismayta/pgp_keys.asc
 
-.. |Build Status| image:: https://travis-ci.org/equipindustry/zsh-templates.svg
-    :target: https://travis-ci.org/equipindustry/zsh-templates
-.. |GitHub issues| image:: https://img.shields.io/github/issues/equipindustry/zsh-templates.svg
-    :target: https://github.com/equipindustry/zsh-templates/issues
+.. |Build Status| image:: https://travis-ci.org/hadenlabs/zsh-templates.svg
+    :target: https://travis-ci.org/hadenlabs/zsh-templates
+.. |GitHub issues| image:: https://img.shields.io/github/issues/hadenlabs/zsh-templates.svg
+    :target: https://github.com/hadenlabs/zsh-templates/issues
 .. |GitHub license| image:: https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square
     :target: LICENSE
 
@@ -179,8 +179,8 @@ Made with :coffee: and :pizza: by `Luis Mayta`_ and `equipindustry`_.
 .. Footer:
 .. |linkedin| image:: http://www.linkedin.com/img/webpromo/btn_liprofile_blue_80x15.png
     :target: https://pe.linkedin.com/in/luismayta
-.. |beacon| image:: https://ga-beacon.appspot.com/UA-65019326-1/github.com/equipindustry/zsh-templates/readme
-    :target: https://github.com/equipindustry/zsh-templates
+.. |beacon| image:: https://ga-beacon.appspot.com/UA-65019326-1/github.com/hadenlabs/zsh-templates/readme
+    :target: https://github.com/hadenlabs/zsh-templates
 .. |made| image:: https://img.shields.io/badge/Made%20with-Zsh-1f425f.svg
     :target: http://www.zsh.org
 

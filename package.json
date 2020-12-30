@@ -1,9 +1,9 @@
 {
   "keywords": [],
-  "name": "@equipindustry/zsh-templates",
+  "name": "@hadenlabs/zsh-templates",
   "description": "zsh-templates for zsh",
   "private": true,
-  "repository": "ssh://git@github.com/equipindustry/zsh-templates.git",
+  "repository": "ssh://git@github.com/hadenlabs/zsh-templates.git",
   "author": "Luis Mayta <slovacus@gmail.com>",
   "license": "MIT",
   "stylintrc": ".stylintrc",

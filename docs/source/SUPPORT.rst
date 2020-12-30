@@ -2,7 +2,7 @@
 Support & Contact
 =================
 
-If you have any problems with starting zsh-templates, please report it on GitHub: https://github.com/equipindustry/zsh-templates
+If you have any problems with starting zsh-templates, please report it on GitHub: https://github.com/hadenlabs/zsh-templates
 
 
 Who is behind zsh-templates
