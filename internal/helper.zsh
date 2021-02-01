@@ -4,29 +4,23 @@
 # shellcheck disable=SC2154  # Unused variables left for readability
 function templates::internal::list {
     # shellcheck disable=SC2002
-    cat "${TEMPLATES_FILE_TEMPLATES}" | jq '.templates[] | "\(.name) | \(.description) | \(.tool) | \(.type) | \(.filename)"'
+    find templates -type f | sed "s/templates//" | sed "s/[/]/    /g"
 }
 
 function templates::internal::find {
-    local filename
-    filename=$(templates::internal::list \
-                    | fzf \
-                    | awk '{print $(NF -0)}' \
-                    | perl -pe 'chomp' \
-                    | sed 's/\"//g'
-                )
-    if [ -n "${filename}" ]; then
-        echo "${filename}"
-    fi
+    templates::internal::list \
+                    | fzf --height 40% --layout=reverse --border \
+                    | awk '{print $(NF -1)"/"$(NF -0)}' \
+                    | perl -pe 'chomp'
 }
 
 # find command for read
 function templates::internal::templates::read {
     local parse_cmd
-    if type -p most > /dev/null; then
-        parse_cmd="most"
-    elif type -p less > /dev/null; then
+    if type -p less > /dev/null; then
         parse_cmd="less"
+    elif type -p most > /dev/null; then
+        parse_cmd="most"
     else
         parse_cmd="cat"
     fi
