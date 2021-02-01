@@ -9,5 +9,5 @@ function templates::run {
         message_warning "Please select one option"
         return
     fi
-    templates::internal::load "${filename}"
+    templates::internal::load "${filename}" && zle accept-line
 }
