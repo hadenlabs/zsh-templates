@@ -6,7 +6,6 @@ function templates::run {
     local filename
     filename="$(templates::internal::find)"
     if [ -z "${filename}" ]; then
-        message_warning "Please select one option"
         return
     fi
     templates::internal::load "${filename}" && zle accept-line
