@@ -4,7 +4,7 @@
 # shellcheck disable=SC2154  # Unused variables left for readability
 function templates::internal::list {
     # shellcheck disable=SC2002
-    find templates -type f | sed "s/templates//" | sed "s/[/]/    /g"
+    find "${TEMPLATES_TEMPLATES_PATH}" -type f | sed "s/templates//" | sed "s/[/]/    /g"
 }
 
 function templates::internal::find {
