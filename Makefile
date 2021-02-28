@@ -26,21 +26,21 @@ PROJECT := zsh-templates
 PROJECT_PORT := 3000
 
 PYTHON_VERSION=3.8.0
-NODE_VERSION=12.14.1
+NODE_VERSION=14.15.5
 PYENV_NAME="${PROJECT}"
 
 # Configuration.
 SHELL ?=/bin/bash
 ROOT_DIR=$(shell pwd)
 MESSAGE:=🍺️
-MESSAGE_HAPPY:="Done! ${MESSAGE}, Now Happy Hacking"
+MESSAGE_HAPPY?:="Done! ${MESSAGE}, Now Happy Hacking"
 SOURCE_DIR=$(ROOT_DIR)
 PROVISION_DIR:=$(ROOT_DIR)/provision
 DOCS_DIR:=$(ROOT_DIR)/docs
 README_TEMPLATE:=$(PROVISION_DIR)/templates/README.md.gotmpl
 
 export README_FILE ?= README.md
-export README_YAML ?= provision/generator/README.yaml
+export README_YAML ?= provision/generators/README.yaml
 export README_INCLUDES ?= $(file://$(shell pwd)/?type=text/plain)
 
 FILE_README:=$(ROOT_DIR)/README.md
