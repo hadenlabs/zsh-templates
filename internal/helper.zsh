@@ -4,14 +4,13 @@
 # shellcheck disable=SC2154  # Unused variables left for readability
 function templates::internal::list {
     # shellcheck disable=SC2002
-    find "${TEMPLATES_TEMPLATES_PATH}" -type f | sed "s/templates//" | sed "s/[/]/    /g"
+    find "${TEMPLATES_TEMPLATES_PATH}" -type f | sed "s/\/templates//"
 }
 
 function templates::internal::find {
     templates::internal::list \
                     | fzf --height 40% --layout=reverse --border \
-                    | awk '{print $(NF -1)"/"$(NF -0)}' \
-                    | perl -pe 'chomp'
+                    | awk '{print $(NF -1)}'
 }
 
 # find command for read
@@ -32,7 +31,7 @@ function templates::internal::load {
     local filename
     filename="${1}"
     if [ -z "${filename}" ]; then
-        message_warning "Please is neccesary filename path"
+        message_warning "Please is necessary filename path"
         return
     fi
     templates::internal::templates::read "${TEMPLATES_TEMPLATES_PATH}/${filename}" | pbcopy
