@@ -20,7 +20,7 @@ function templates::internal::main::factory {
 
 templates::internal::main::factory
 
-if ! type -p rsync > /dev/null; then templates::internal::rync::install; fi
-if ! type -p most > /dev/null; then templates::internal::most::install; fi
-if ! type -p less > /dev/null; then templates::internal::less::install; fi
-if ! type -p fzf > /dev/null; then templates::internal::fzf::install; fi
+if ! core::exists rsync > /dev/null; then core::install rync; fi
+if ! core::exists most > /dev/null; then core::install most; fi
+if ! core::exists less > /dev/null; then core::install less; fi
+if ! core::exists fzf > /dev/null; then core::install fzf; fi
