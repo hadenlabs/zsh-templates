@@ -12,8 +12,8 @@ If necessary, describe the problem you have been experiencing in more detail.
 
 h3. Environment
 
-- OS: {Please write here}
-- Project version : {Please write here}
+* OS: {Please write here}
+* Project version : {Please write here}
 
 h3. What is the current bug behavior?
 

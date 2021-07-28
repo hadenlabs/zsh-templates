@@ -8,8 +8,8 @@ Briefly describe the issue you are experiencing (or the feature you want to see 
 
 ### Sources:
 
-- [link](https://google.com/)
+- [link](https://www.google.com/)
 
 ### Examples:
 
-- [link](https://google.com/)
+- [link](https://www.google.com/)

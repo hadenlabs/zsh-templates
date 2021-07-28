@@ -4,9 +4,9 @@ Title of spike
 
 h3. Spike:
 
-- Implement with Terraform and Terragrunt.
-- Search possibles rules.
+* Implement with Terraform and Terragrunt.
+* Search possibles rules.
 
 h3. Sources:
 
-- [link](https://google.com/)
+* [link title|https://www.google.com]
