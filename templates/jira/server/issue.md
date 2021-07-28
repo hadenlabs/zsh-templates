@@ -4,12 +4,12 @@ Briefly describe the issue you are experiencing (or the feature you want to see 
 
 h3. Acceptance Tests
 
-- Write here
+* Write here
 
 h3. Sources:
 
-- [link](https://google.com/)
+* [link title|https://www.google.com/]
 
 h3. Examples:
 
-- [link](https://google.com/)
+* [link title|https://www.google.com/]
