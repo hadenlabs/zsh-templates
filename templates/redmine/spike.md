@@ -9,4 +9,4 @@ Title of spike
 
 ### Sources:
 
-- [link](https://google.com/)
+- [link](https://www.google.com/)
