@@ -56,7 +56,11 @@ repos:
       - id: markdown-link-check
         args:
           - --config=.github/linters/markdown-link-config.json
-        exclude: \.tpl.md$
+        exclude: >
+          (?x)^(
+            ^templates/jira/server/+.*md$|
+            .+\.tpl.md$|
+          )$
       - id: shellcheck
         exclude: >
           (?x)^(
@@ -73,4 +77,3 @@ repos:
           - --verbose
       - id: prepare-commit-msg
         stages: [prepare-commit-msg]
-
