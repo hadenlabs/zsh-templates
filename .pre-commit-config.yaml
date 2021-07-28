@@ -9,6 +9,8 @@ repos:
         args: [--ignore-words=.codespell-ignores]
         exclude: >
           (?x)^(
+            ^templates/redmine/+.*md$|
+            ^templates/linkedin/+.*md$|
             .+\.vendor\/.*$|
             .+\.node_modules\/.*$|
             .+\.lock$|
