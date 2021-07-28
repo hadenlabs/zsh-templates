@@ -26,4 +26,5 @@ Requiere/No Requiere pantalla de mantenimiento.
 ### QA
 
 - Se requiere su apoyo para validar las tareas asociadas al Pase, en estado Desarrollo resuelto o Completado.
-- El detalle del cambio a nivel de Análisis Funcional se encuentra en la sección Documentos (http://docs.equipindustry.com/equipay/documents).
+- El detalle del cambio a nivel de Análisis Funcional se encuentra en la sección Documentos (https://google.com).
+
