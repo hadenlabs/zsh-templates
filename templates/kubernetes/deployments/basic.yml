@@ -1,0 +1,15 @@
+apiVersion: apps/v1 # this apiVersion is relevant as of Kubernetes 1.9
+kind: Deployment
+metadata:
+  name: { deploy-name }
+  namespace: { namespace }
+spec:
+  replicas: 3
+  template:
+    metadata:
+    # ...
+    spec:
+      serviceAccountName: { service-name }
+      containers:
+        - name: nginx
+          image: nginx:1.14.2
