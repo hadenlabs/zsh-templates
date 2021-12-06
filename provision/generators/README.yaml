@@ -10,6 +10,10 @@ name: zsh-templates
 email:
   support: support@hadenlabs.com
 
+confluence:
+  space: ZshTemplates
+  title: Project
+
 # Logo for this project
 #logo: docs/logo.png
 
@@ -58,5 +62,5 @@ installation:
 # How to use this project
 usage: |-
   ```bash
-  make setup
+  task setup
   ```
