@@ -27,4 +27,3 @@ Requiere/No Requiere pantalla de mantenimiento.
 
 - Se requiere su apoyo para validar las tareas asociadas al Pase, en estado Desarrollo resuelto o Completado.
 - El detalle del cambio a nivel de Análisis Funcional se encuentra en la sección Documentos (https://google.com).
-
