@@ -41,18 +41,15 @@ badges:
     image: https://img.shields.io/badge/Keep%20A%20Changelog-1.0.0-%23E05735
     url: https://keepachangelog.com
 
-# Short description of this project
-description: |-
-  zsh-templates plugin for zsh.
-
 requirements: |-
 
   This is a list of plugins that need to be installed previously to enjoy all the goodies of this configuration:
 
-  ```{.sourceCode .bash}
-  https://github.com/luismayta/zsh-core
-  https://github.com/luismayta/zsh-notify
-  ```
+  * [zsh-core](https://github.com/hadenlabs/zsh-core)
+
+# Short description of this project
+description: |-
+  zsh-templates plugin for zsh.
 
 installation:
   - 'docs/include/installation/oh-my-zsh.md'
@@ -64,3 +61,6 @@ usage: |-
   ```bash
   task setup
   ```
+
+include:
+  - 'docs/functions.md'
